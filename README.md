@@ -1,0 +1,2 @@
+# sticklit
+Literature on stickers
