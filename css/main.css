@@ -1,10 +1,18 @@
 body { margin: 0; }
-.full { width:100vw; }
+.full { 
+  width:100vw;
+  margin: 0;
+}
 
 .download { 
   width: 100vw;
-  padding: 20px 20px;
+  padding: 40px 40px;
   background: #0078ff;
 }
 
-.link a { text-decoration: none; }
+.link a {
+  font-family: Futura, sans-serif;
+  font-size: 4rem;
+  text-decoration: none;
+  color: white;
+}
