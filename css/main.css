@@ -5,14 +5,14 @@ body { margin: 0; }
 }
 
 .download { 
+  font-family: Futura, sans-serif;
+  font-size: 4rem;
   width: 100vw;
   padding: 40px 40px;
   background: #0078ff;
 }
 
 .link a {
-  font-family: Futura, sans-serif;
-  font-size: 4rem;
   text-decoration: none;
   color: white;
 }
