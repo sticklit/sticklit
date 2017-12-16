@@ -18,3 +18,7 @@ body { margin: 0; }
   font-size: 6rem;
   color: white;
 }
+
+.download a:hover { 
+  color: black;
+}
