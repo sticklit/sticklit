@@ -13,4 +13,4 @@ body { margin: 0; }
   background: #fdda00;
 }
 
-.link a { text-decoration: none; }
+a.link { text-decoration: none; }
