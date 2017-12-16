@@ -9,8 +9,8 @@ body { margin: 0; }
   font-size: 6rem;
   color: white;
   width: 100vw;
-  padding: 20vh 10vw;
-  background: #0078ff;
+  padding: 20vh 20px;
+  background: #fdda00;
 }
 
 .link a { text-decoration: none; }
