@@ -1,70 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title> Sticklit </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110679255-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html>
+  <head>
+  <title>STICKLIT — World's Largest Public Library </title>
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript">
+    if( $( window ).width() >= 480 ){
+    $(function() {
+        $('header.container a').bind('click',function(event){
+            var $anchor = $(this);
 
-  gtag('config', 'UA-110679255-1');
-</script>
-<body>
-  <img class="full" src="img/teaser.png">
-  <img class="full" src="img/was.png">
-  <img class="full" src="img/sr.png">
-  <img class="full" src="img/man2.png">
-  <img class="full" src="img/fw.png">
-  <img class="full" src="img/man1.png">
-  <img class="full" src="img/mn123.png">
-  <img class="full" src="img/mm30.png">
-    <img class="full" src="img/me.png">
-  <img class="full" src="img/a325.png">
-  <img class="full" src="img/a125.png">
-  <img class="full" src="img/mm20.png">
-  <img class="full" src="img/mmm20.png">
-  
-  <div class="download">
-  <p> DOWNLOAD STICKERS HERE </p> 
-  <a class="link" target="blank" href="https://drive.google.com/file/d/1hPPVm7rD5g_Vxw8bznrp3jj1em9fmP9F/view?usp=sharing">ENGLISH</a> 
-  <a class="link" target="blank" href="https://drive.google.com/file/d/1qAfGmUXBlJzVtjgwHFEf7L5lMawzEJzv/view?usp=sharing">HINDI</a>
-  </div>
-  
-  <img class="full" src="img/e.png">
-  <img class="full" src="img/lo11.png">
-  <img class="full" src="img/xxx.png">
-  <img class="full" src="img/xxx1.png">
-  <img class="full" src="img/man3.png">
-  <img class="full" src="img/man4.png">
-  <img class="full" src="img/j.png">
-  <img class="full" src="img/zz11.png">
-  <img class="full" src="img/o.png">
-  <img class="full" src="img/r.png">
-  <img class="full" src="img/mm31.png">
-  <img class="full" src="img/u.png">
-  <img class="full" src="img/mm1.png">
-  <img class="full" src="img/mm2.png">
-  <img class="full" src="img/mm3.png">
-  <img class="full" src="img/mm4.png">
-  <img class="full" src="img/mm8.png">
-  <img class="full" src="img/g1.png">
-  <img class="full" src="img/mm13.png">
-  <img class="full" src="img/mm21.png">
-  <img class="full" src="img/v.png">
-  <img class="full" src="img/w.png">
-  <img class="full" src="img/wet.png">
-  <img class="full" src="img/m.png">
-  <img class="full" src="img/mnm.png">
-  <img class="full" src="img/z.png">
-  <img class="full" src="img/z1.png">
-  <img class="full" src="img/z4.png">
-  <img class="full" src="img/z3.png">
-  <img class="full" src="img/z2.png">
-</body>
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top-100
+            }, 1500,'easeInOutExpo');
+
+            event.preventDefault();
+        });
+    });
+
+    }
+    else {
+    $(function() {
+        $('header.container a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top-60
+            }, 1500,'easeInOutExpo');
+
+            event.preventDefault();
+        });
+    });
+    }
+  </script>
+ </head>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110679255-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110679255-1');
+  </script>
+ <body>
+   <section class="container">
+     <aside class="index">FORWARD</aside>
+     <article class="main">
+       <p>'Raman from Orissa, writes screenplays for B-grade movies in Mumbai to make ends meet. When what he set out to do was write and publish a book.'</p>
+       <p>'Sahil from Dharavi, will never read Raman's work even if it gets published. As he can't afford something as simple as a book.'</p>
+     </article>
+     <aside class="page">I</aside>
+   </section>
+
+   <header class="container">
+     <aside class="index">CONTENTS</aside>
+     <nav class="main">
+       <ul role="navigation">
+         <li class="links"><a href="#int">III<span class="contents">INTRO</span></a></li>
+         <li class="links"><a href="#cha">IV<span class="contents">CHAPTERS</span></a></li>
+         <li class="links"><a href="#dow">V<span class="contents">DOWNLOADS</span></a></li>
+         <li class="links"><a href="#blu">VI<span class="contents">BLURB</span></a></li>
+         <li class="links"><a href="#don">VIII<span class="contents">DONATE</span></a></li>
+         <li class="links"><a href="#con">IX<span class="contents">CONTACT</span></a></li>
+       </ul>
+     </nav>
+     <aside class="page">II</aside>
+   </header>
+
+   <blockquote class="mention">“The world’s largest public library.”<br><span class="author">The Telegraph<span></blockquote>
+
+   <section id="int" class="container">
+     <aside class="index">INTRO</aside>
+     <article class="main">
+       <p><span class="red">#STICKLIT</span> is an initiative by a network of artists and writers. We’re creating THE WORLD'S LARGEST PUBLIC LIBRARY (in public spaces) to make good literature and art more accessible to the common man. Using free-format stickers, posters, wall murals, etc. In essence, we’re creating a free-world for writers and readers. Just the way it should be.</p>
+     </article>
+     <aside class="page">III</aside>
+   </section>
+
+   <section id="cha" class="container">
+     <aside class="index">CHAPTERS</aside>
+     <section class="main slideshow">
+       <img src="img/wall.jpg">
+       <img src="img/wall2.jpg">
+     </section>
+     <aside class="page">IV</aside>
+   </section>
+
+   <section id="dow" class="container">
+     <aside class="index">DOWNLOADS</aside>
+     <article class="main">
+       <p class="down">Download stickers here: <span class="sticker"><a href="https://drive.google.com/file/d/1hPPVm7rD5g_Vxw8bznrp3jj1em9fmP9F/view" target="blank">English</a></span><span class="sticker"><a href="https://drive.google.com/file/d/1qAfGmUXBlJzVtjgwHFEf7L5lMawzEJzv/view" target="blank">Hindi</a></span></p>
+     </article>
+     <aside class="page">V</aside>
+   </section>
+
+   <section id="blu" class="container">
+     <aside class="index">BLURB</aside>
+     <section class="main bottomline">
+       <blockquote class="quote">‘The intriguing idea of #Sticklit’<br><span class="author">— Shashi Tharoor<span></blockquote>
+       <blockquote class="quote">‘Aww …’<br><span class="author">— Margaret Atwood<span></blockquote>
+       <blockquote class="quote">‘A book is not a bottle of cola. It’s absinthe.’<br><span class="author">— Anon<span></blockquote>
+     </section>
+     <aside class="page">VI</aside>
+   </section>
+
+   <section class="container">
+     <aside class="index">PRESS</aside>
+     <section class="main bottomline">
+       <blockquote class="quote">'We are thrilled by ideas such as Aristotle being read by a rickshaw puller. We feel that this dialogue between two disparate minds deserves a chance.'<br><span class="author">The Indian Express<span></blockquote>
+       <blockquote class="quote">'Think of this intervention in public spaces (with the stickers) as the world's largest public library. Think of the possibilities of a rickshaw-puller reading Shakespeare.'<br><span class="author">— The Telegraph<span></blockquote>
+     </section>
+     <aside class="page">VII</aside>
+   </section>
+
+   <section id="don" class="container">
+     <aside class="index">DONATE</aside>
+     <article class="main">
+       <p class="down">Support our initiative <span class="donate"><a href="https://www.generosity.com/community-fundraising/the-world-s-largest-public-library" target="blank">Donate</a></span></p>
+     </article>
+     <aside class="page">VIII</aside>
+   </section>
+
+   <blockquote class="mention">#STICKLIT<br><span class="author">write to read<span></blockquote>
+
+   <section class="container">
+     <aside class="index">CAT</aside>
+     <blockquote class="main wall">We're all stories</blockquote>
+     <aside class="page">MAN</aside>
+   </section>
+   <footer id="con" class="container">
+     <aside class="index">CONTACT</aside>
+     <section class="contact main">
+       <article>
+         <div class="logo"></div>
+       </article>
+       <article>
+         <p>Find</p>
+         <a class="foot">sticklit<br>@outlook.com</a>
+       </article>
+       <article>
+         <p>Follow</p>
+         <a class="foot" href="https://twitter.com/talesontweet?lang=en" target="blank">twitter</a><br>
+         <a class="foot" href="https://www.instagram.com/sticklit.in/" target="blank">instagram</a>
+       </article>
+       <article>
+         <p>Feed</p>
+         <a class="foot">#talesontweet</a><br>
+         <a class="foot">#sticklit</a>
+       </article>
+     </section>
+     <aside class="page">IX</aside>
+   </footer>
+
+   <section class="container">
+     <aside class="index">END</aside>
+     <h6 class="main">For a free world for writers and readers.</h6>
+     <aside class="page">X</aside>
+   </section>
+ </body>
 </html>
