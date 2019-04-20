@@ -3,7 +3,7 @@ html,body{background-color:#F1EEE8;color:#3D3D3D;font-family:'PT Sans', sans-ser
   font-size: 2vw;
   color: white;
   background-color: #FC501F;
-  padding: 0 6vw 2vh;
+  padding: 0 0 2vh;
   cursor: crosshair;
   display: flex;
   align-items: center;
